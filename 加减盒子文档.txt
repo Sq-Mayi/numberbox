@@ -1,0 +1,5 @@
+使用步骤
+1.引入numberbox组件
+2.注册为局部组件
+3.页面中<numberbox v-model="goodsCount"><numberbox>
+组件中可传参 最大值max  最小值min  可以与其他组件双向绑定:输入框中的数据与goodsCount双向绑定,在其他组件设置一个数据goodsCount即可
